@@ -32,6 +32,7 @@ export let ASPropertySpecifiers : any = {
     "ShowOnActor": "Use on DefaultComponents, properties from the component will appear in the actor's details panel",
     "Attach": "Use on DefaultComponents, specify a different component to attach this to in the scene hierarchy",
     "AttachSocket": "Use on DefaultComponents with an Attach, specify a socket to attach to on this component's attach parent",
+    "NoAttach": "Use on DefaultComponents that shouldnt be attached to anything by default",
     "Meta": "Specify arbitrary meta tags",
     "Instanced": "The object in this property is a new instance for each containing instance",
     "BlueprintSetter": "Specify a function to call instead when writing this property from blueprint",
